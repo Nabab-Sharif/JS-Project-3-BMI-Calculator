@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.box {
+  width: 600px;
+  height: 600px;
+  background-color: #8F8F8F;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  box-shadow: -1px -1px 0px 33px rgba(162, 194, 35, 0.18);
+  -webkit-box-shadow: -1px -1px 0px 33px rgba(162, 194, 35, 0.18);
+  -moz-box-shadow: -1px -1px 0px 33px rgba(162, 194, 35, 0.18);
+
+
+}
+
+.box .label {
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.box .label_part {
+  margin-bottom: 15px;
+}
+
+.box button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: coral;
+  border: 0;
+  width: 100px;
+}
+
+.box input {
+  padding: 8px;
+  border: 0;
+  background-color: #CCF4F8;
+}
+
+.box h2 {
+  margin-bottom: 50px;
+  text-align: center;
+  color: rgba(2, 99, 62, 0.586);
+}
+
+.box select {
+  padding: 7px;
+  border: 0;
+  background-color: #CCF4F8;
+}
+
+.box .weight_status,
+.bmi_result {
+  color: #EEF4D7;
+}
